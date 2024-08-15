@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MP3437")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/MP3437.pretty")(options "")(descr ""))
+  (lib (name "Voltmeter")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Voltmeter.pretty")(options "")(descr ""))
+)
