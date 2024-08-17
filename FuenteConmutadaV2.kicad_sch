@@ -2709,6 +2709,12 @@
 		(uuid "5fbd4e49-85a6-48e1-909d-41c26e57d257")
 	)
 	(junction
+		(at 218.44 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61dff238-e113-483f-bc01-2d45f2d3b43c")
+	)
+	(junction
 		(at 232.918 114.808)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2743,6 +2749,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97c57181-68fb-4888-9dc6-91c8f000d75a")
+	)
+	(junction
+		(at 218.44 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da308ef-d684-4b81-8e71-6adb32ad9e24")
 	)
 	(junction
 		(at 132.461 123.571)
@@ -2781,7 +2793,7 @@
 		(uuid "b9420e20-6d9d-4525-acf2-6f8c019357cf")
 	)
 	(junction
-		(at 229.235 71.501)
+		(at 229.87 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbd14d52-f5f2-4b0e-8159-a545f815d3e5")
@@ -2822,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 71.501) (xy 241.935 83.566)
+			(xy 241.935 72.39) (xy 241.935 83.566)
 		)
 		(stroke
 			(width 0)
@@ -2849,6 +2861,16 @@
 			(type default)
 		)
 		(uuid "0ce248ae-e4e3-4446-9e8a-0234b0846a8c")
+	)
+	(wire
+		(pts
+			(xy 218.44 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e40ef5e-4c43-420e-beb2-8eb881384398")
 	)
 	(wire
 		(pts
@@ -2942,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 82.296) (xy 222.885 82.296)
+			(xy 190.5 82.55) (xy 218.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2959,6 +2981,16 @@
 			(type default)
 		)
 		(uuid "1ffe0771-e9fb-42ab-af15-21d24d935799")
+	)
+	(wire
+		(pts
+			(xy 218.44 81.28) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2499fe29-d53f-4be8-b3eb-7156b6bc6dcd")
 	)
 	(wire
 		(pts
@@ -3022,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 83.566) (xy 224.536 83.566)
+			(xy 222.25 83.566) (xy 224.536 83.566)
 		)
 		(stroke
 			(width 0)
@@ -3059,6 +3091,16 @@
 			(type default)
 		)
 		(uuid "43d148c7-b4dc-49cb-8956-e884c9475ce1")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 218.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d812f9-67d5-40e0-b466-0fd9eaa81871")
 	)
 	(wire
 		(pts
@@ -3099,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "4884aa0f-67d6-409c-a144-ff987a67c3ac")
+	)
+	(wire
+		(pts
+			(xy 218.44 72.39) (xy 229.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bda338-7794-4087-93fb-c21086ff0140")
 	)
 	(wire
 		(pts
@@ -3292,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 79.756) (xy 229.235 79.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775db578-4bab-46ec-9e56-2ad137fe125b")
+	)
+	(wire
+		(pts
 			(xy 147.955 63.627) (xy 147.955 66.167)
 		)
 		(stroke
@@ -3392,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 82.296) (xy 222.885 83.566)
+			(xy 222.25 82.55) (xy 222.25 83.566)
 		)
 		(stroke
 			(width 0)
@@ -3492,7 +3554,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 76.327) (xy 178.943 76.327)
+			(xy 173.355 76.327) (xy 178.308 76.327)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.943 71.501) (xy 178.943 76.327)
+			(xy 178.308 72.39) (xy 178.308 76.327)
 		)
 		(stroke
 			(width 0)
@@ -3552,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.943 71.501) (xy 229.235 71.501)
+			(xy 178.308 72.39) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3702,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 71.501) (xy 241.935 71.501)
+			(xy 229.87 72.39) (xy 241.935 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3742,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 82.296) (xy 191.135 92.456)
+			(xy 190.5 82.55) (xy 190.5 92.456)
 		)
 		(stroke
 			(width 0)
@@ -3822,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 92.456) (xy 191.135 92.456)
+			(xy 173.355 92.456) (xy 190.5 92.456)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 71.501) (xy 229.235 79.756)
+			(xy 229.87 72.39) (xy 229.87 79.756)
 		)
 		(stroke
 			(width 0)
@@ -4167,6 +4229,76 @@
 			(project "FuenteConmutadaV2"
 				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
 					(reference "Uw1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb879da-4c3d-46ea-88e5-b653e326206d")
+		(property "Reference" "RP1"
+			(at 220.98 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 220.98 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 220.218 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de10460b-81c7-4d57-a59c-56ca26e0c62a")
+		)
+		(pin "2"
+			(uuid "81c42d7b-5ace-4103-a60b-464de11094ab")
+		)
+		(instances
+			(project "FuenteConmutadaV2"
+				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
+					(reference "RP1")
 					(unit 1)
 				)
 			)
@@ -6703,7 +6835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 78.74 138.43 0)
 			(effects
 				(font
