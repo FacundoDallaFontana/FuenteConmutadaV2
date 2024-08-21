@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "MP3437")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/MP3437.pretty")(options "")(descr ""))
   (lib (name "Voltmeter")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Voltmeter.pretty")(options "")(descr ""))
+  (lib (name "Agujero3mm")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Agujero3mm.pretty")(options "")(descr ""))
+  (lib (name "Banana_elemon")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Banana_elemon.pretty")(options "")(descr ""))
 )

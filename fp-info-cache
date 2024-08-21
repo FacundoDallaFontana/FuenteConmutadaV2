@@ -1,4 +1,11 @@
-23748704407271053
+23753872939049531
+Agujero3mm
+MountingHole 3mm
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,13 @@ audio belton reverb
 0
 7
 7
+Banana_elemon
+Banana_209_elemon
+
+
+0
+1
+1
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -64942,6 +64956,13 @@ MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
 DIN rail adapter universal three M3 clearance holes
+0
+0
+0
+MountingHole
+MountingHole 3mm
+
+
 0
 0
 0

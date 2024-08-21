@@ -1849,189 +1849,6 @@
 				)
 			)
 		)
-		(symbol "Device:Voltmeter_DC"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.0254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "MES"
-				(at -3.302 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Voltmeter_DC"
-				(at -3.302 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC voltmeter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "voltmeter DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Voltmeter_DC_0_0"
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 3.175 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.175) (xy 3.175 3.175) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "V"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_0_1"
-				(polyline
-					(pts
-						(xy 0.254 3.81) (xy 0.762 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 4.064) (xy 0.508 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Voltmeter_DC_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simbolos:MP3437GJ-P(modified)"
 			(pin_names
 				(offset 0.254)
@@ -2691,12 +2508,6 @@
 		(uuid "419619ec-cc00-4217-97e7-f86562b73228")
 	)
 	(junction
-		(at 124.079 159.639)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4376f556-bb19-40cc-aff3-2ecf97a1d7ab")
-	)
-	(junction
 		(at 95.377 78.867)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2904,16 +2715,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.079 148.336) (xy 118.999 148.336)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15010ff5-af9f-40d7-8d7a-3d5a8d8a7d11")
-	)
-	(wire
-		(pts
 			(xy 156.845 58.801) (xy 158.115 58.801)
 		)
 		(stroke
@@ -3034,16 +2835,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.999 159.639) (xy 124.079 159.639)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3626ffbd-a76d-4abd-af5c-008436c6ab18")
-	)
-	(wire
-		(pts
 			(xy 78.74 120.65) (xy 78.74 123.19)
 		)
 		(stroke
@@ -3101,16 +2892,6 @@
 			(type default)
 		)
 		(uuid "43d812f9-67d5-40e0-b466-0fd9eaa81871")
-	)
-	(wire
-		(pts
-			(xy 124.079 159.639) (xy 124.079 160.528)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4602ff8c-56cc-4fdb-9b6d-3e81b80a5c62")
 	)
 	(wire
 		(pts
@@ -3431,16 +3212,6 @@
 			(type default)
 		)
 		(uuid "8d533e20-3f43-4dfe-9bc1-bef8e5796f77")
-	)
-	(wire
-		(pts
-			(xy 118.999 148.336) (xy 118.999 159.639)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8defeab3-4e8b-45f8-b8a9-7338ff676bd7")
 	)
 	(wire
 		(pts
@@ -3924,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.079 158.496) (xy 124.079 159.639)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b974f0-620a-44e1-b22a-959a12f1306f")
-	)
-	(wire
-		(pts
 			(xy 32.258 173.355) (xy 36.322 173.355)
 		)
 		(stroke
@@ -4306,78 +4067,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.079 160.528 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37d030b5-4132-4013-8b57-6ceb9172c36a")
-		(property "Reference" "#PWR06"
-			(at 124.079 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.079 165.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.079 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.079 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.079 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9bb539c-45b6-422b-9a18-e298de25be47")
-		)
-		(instances
-			(project "FuenteConmutadaV2"
-				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "FuenteConmutada"
-				(path "/d7444c1b-87b0-4ff7-a57a-a32071ba4b64"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 259.08 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4451,7 +4140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43d73285-3441-498d-b3ac-80618276d77f")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 263.144 105.918 0)
 			(effects
 				(font
@@ -4467,8 +4156,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:CalTest_CT3151"
-			(at 264.287 107.061 0)
+		(property "Footprint" "Banana_elemon:Banana_209_elemon"
+			(at 272.796 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4189,7 @@
 		(instances
 			(project "FuenteConmutadaV2"
 				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5011,7 +4700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73811953-a1cb-4614-a073-ee20344913bf")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 39.878 126.111 0)
 			(effects
 				(font
@@ -5108,7 +4797,7 @@
 		(instances
 			(project "FuenteConmutadaV2"
 				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5276,7 +4965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8347bf5a-d034-49c1-b9f5-661404b639b6")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 261.239 101.346 0)
 			(effects
 				(font
@@ -5292,7 +4981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:CalTest_CT3151"
+		(property "Footprint" "Banana_elemon:Banana_209_elemon"
 			(at 264.287 104.521 0)
 			(effects
 				(font
@@ -5325,7 +5014,7 @@
 		(instances
 			(project "FuenteConmutadaV2"
 				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6112,7 +5801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:CalTest_CT3151"
+		(property "Footprint" "Banana_elemon:Banana_209_elemon"
 			(at 264.287 109.601 0)
 			(effects
 				(font
@@ -6432,76 +6121,6 @@
 			(project "FuenteConmutada"
 				(path "/d7444c1b-87b0-4ff7-a57a-a32071ba4b64"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Voltmeter_DC")
-		(at 124.079 153.416 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfae850d-89eb-4389-b219-578aae6c25a0")
-		(property "Reference" "MES1"
-			(at 128.143 151.7015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Voltmeter_DC"
-			(at 128.143 154.2415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Voltmeter:PRT-14313"
-			(at 124.079 150.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.079 150.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.079 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f0a8c90-2459-4e91-a09b-3bdab39ff97e")
-		)
-		(pin "2"
-			(uuid "c84c9db0-7ecb-4ea0-ae3e-b95c4fef686e")
-		)
-		(instances
-			(project "FuenteConmutadaV2"
-				(path "/d69a48d3-cc9a-476a-8449-ca4ce55f09c5"
-					(reference "MES1")
 					(unit 1)
 				)
 			)
