@@ -4,4 +4,7 @@
   (lib (name "Voltmeter")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Voltmeter.pretty")(options "")(descr ""))
   (lib (name "Agujero3mm")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Agujero3mm.pretty")(options "")(descr ""))
   (lib (name "Banana_elemon")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Banana_elemon.pretty")(options "")(descr ""))
+  (lib (name "USB_Amphenol")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/USB_Amphenol.pretty")(options "")(descr ""))
+  (lib (name "Pote")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Pote.pretty")(options "")(descr ""))
+  (lib (name "Banana_CT")(type "KiCad")(uri "${KIPRJMOD}/footprints_&_3Dmodels/Banana_CT.pretty")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-23753872939049531
+23759046260360356
 Agujero3mm
 MountingHole 3mm
 
@@ -20,6 +20,13 @@ audio belton reverb
 0
 7
 7
+Banana_CT
+Banana_CT_6mm
+
+
+0
+1
+1
 Banana_elemon
 Banana_209_elemon
 
@@ -84573,6 +84580,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Pote
+PDB12M4251105BF
+PDB12-M4251-105BF-3
+Variable Resistor
+0
+5
+4
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -95885,6 +95899,13 @@ igbt diode module
 0
 25
 25
+USB_Amphenol
+AMPHENOL_10164359-00011LF
+
+
+0
+10
+7
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
