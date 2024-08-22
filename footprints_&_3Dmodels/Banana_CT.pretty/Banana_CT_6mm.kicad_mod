@@ -67,69 +67,27 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(arc
-				(start -4 -3)
-				(mid -8.162277 -0.000001)
-				(end -4 2.999998)
-			)
-			(arc
-				(start -4 2.999998)
-				(mid 4.999999 -0.000001)
-				(end -4 -3)
-			)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Cu")
-		(uuid "79020ded-f9aa-4a71-b6cf-c67caf6bb8d2")
-	)
-	(fp_poly
-		(pts
-			(arc
-				(start -4 -2.999999)
-				(mid -8.162277 0)
-				(end -4 2.999999)
-			)
-			(arc
-				(start -4 2.999999)
-				(mid 4.999999 0)
-				(end -4 -2.999999)
-			)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Mask")
-		(uuid "d8c789b9-8917-445b-bba7-376365a7c0f3")
-	)
 	(fp_arc
-		(start -4.260719 3.502432)
-		(mid -8.64026 -0.005496)
-		(end -4.25 -3.499999)
+		(start -4.3 -3.2)
+		(mid 5.360028 -0.01)
+		(end -4.28803 3.216022)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "B.CrtYd")
-		(uuid "da82a776-e9cf-4a31-b96e-c9bb46bdfdbd")
+		(uuid "13e51b6f-d557-4115-a009-7c5832c3cba1")
 	)
 	(fp_arc
-		(start -4.25 -3.499999)
-		(mid 5.505678 0.002463)
-		(end -4.25313 3.496194)
+		(start -4.292548 3.198127)
+		(mid -8.398482 0.003842)
+		(end -4.3 -3.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "B.CrtYd")
-		(uuid "6e52ae02-785b-47b6-8d47-e0d03381b1d4")
+		(uuid "214050a2-de8e-4a8a-b802-22a73e64f92c")
 	)
 	(fp_circle
 		(center -6.75 0)
@@ -179,6 +137,37 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(clearance 0.3)
+		(thermal_bridge_angle 90)
 		(uuid "f8a02597-497c-48b3-9614-43fd9e669c5b")
+	)
+	(pad "1" smd custom
+		(at -5.1 -1.9)
+		(size 2 2)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 1.1 -1.1)
+						(mid -3.062277 1.899999)
+						(end 1.1 4.899998)
+					)
+					(arc
+						(start 1.1 4.899998)
+						(mid 10.099999 1.899999)
+						(end 1.1 -1.1)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b5bc5873-03e5-41cd-b188-f293f0816790")
 	)
 )
