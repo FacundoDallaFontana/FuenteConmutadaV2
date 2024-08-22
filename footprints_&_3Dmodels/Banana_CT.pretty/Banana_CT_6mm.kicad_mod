@@ -173,13 +173,12 @@
 		(clearance 1)
 		(uuid "ee6039e5-f410-44d2-a0a0-4dc03890dfce")
 	)
-	(pad "0" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -6.75 0)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 0.5)
 		(uuid "f8a02597-497c-48b3-9614-43fd9e669c5b")
 	)
 )
